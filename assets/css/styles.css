@@ -1,0 +1,114 @@
+
+/*Fuentes personalizadas*/
+
+@font-face{
+    font-family: 'NotoSans';
+    src: url('../fonts/Noto_Sans/NotoSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Websymbols';
+    src: url('../fonts/web-symbols/WebSymbols-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*GENERALES*/
+
+body{
+    background: url('../img/mountains-5627143_1920.jpg') no-repeat;
+    min-height: 700px;
+}
+
+/*FORM LOGIN*/
+
+#log-container{
+    margin: auto;
+    margin-top: 10%;
+    width: 500px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #ccc, 0px 0px 3px #ccc, 0px 0px 4px #ccc, 0px 0px 5px #ccc;
+    background: linear-gradient(45deg, #dbe2cbb6 10%, #e4d4cfbd 100%);
+}
+
+#wrap-form{
+    height: 350px;
+    width: 350px;
+    margin: 0px auto;
+    padding: 15%;
+}
+
+#wrap-form h2{
+    text-align: center;
+    font-family: 'NotoSans';
+    color: white;
+    text-shadow: 0px 0px 2px gray, 0px 0px 3px gray, 0px 0px 4px gray;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#wrap-form form{
+    margin: 0px auto;
+    width: 80%;
+    height: 80%;
+}
+
+.ipt-Container{
+    margin-bottom: 31px;
+    box-shadow: 0px 0px 2px gray, 0px 0px 3px gray, 0px 0px 4px gray, 0px 0px 5px gray;
+}
+
+.ipt-Container:first-child{
+    margin-top: 36px;
+}
+
+.ipt-Container p{
+    display: block;
+    float: left;
+    margin: 0px auto;
+    margin-left: 15px;
+    width: 8%;
+    margin-top: 6px;
+}
+
+.ipt-log{
+    width: 84%;
+    height: 27px;
+    background: transparent;
+    border: 0px solid transparent;
+    outline: none;
+}
+
+input[type="submit"]{
+    position: relative;
+    top: 28px;
+    left: 63px;
+    width: 150px;
+    height: 36px;
+    margin: 0px auto;
+    outline: none;
+    border-radius: 10px 10px 10px 10px;
+    background: #59baeb;
+    border: 0;
+    box-shadow: 0px 0px 2px gray, 0px 0px 3px gray, 0px 0px 4px gray, 0px 0px 5px gray;
+    font-family: 'NotoSans';
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#user-icon{
+    font-family: 'Websymbols';
+    font-size: 12px;
+    color: black;
+}
+
+#pwd-icon{
+    font-family: 'Websymbols';
+    font-size: 15px;
+    color: black;
+}
